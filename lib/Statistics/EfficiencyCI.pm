@@ -4,13 +4,16 @@ use 5.008001;
 use strict;
 use warnings;
 
-our $VERSION = '0.04';
+our $VERSION = '0.05';
 
 require Exporter;
 our @ISA = qw(Exporter);
 our @EXPORT_OK = qw(
   efficiency_ci
   log_gamma
+  beta_ab
+  ibetai
+  beta_cf
 );
 our @EXPORT_TAGS = ('all' => \@EXPORT_OK);
 
@@ -72,7 +75,7 @@ and its implementation is Marc Paterno.
 
 =head1 COPYRIGHT AND LICENSE
 
-Copyright (C) 2011 by Steffen Mueller
+Copyright (C) 2011-2013 by Steffen Mueller
 
 Most of the code is taken from the ROOT library (licensed under LGPL) and
 by proxy, the CEPHES library (licensed with a modified BSD license). The full list
