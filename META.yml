@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               Statistics-EfficiencyCI
-version:            0.06
+version:            0.07
 abstract:           Robust confidence intervals on efficiencies
 author:
     - Steffen Mueller <smueller@cpan.org>
